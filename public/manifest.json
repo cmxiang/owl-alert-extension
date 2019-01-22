@@ -1,0 +1,14 @@
+{
+  "name": "Overwatch League Alert",
+  "version": "1.0",
+  "description": "Overwatch League match ticker and alert",
+  "manifest_version": 2,
+  "icons": { 
+    "128": "icon_128.png" 
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}
